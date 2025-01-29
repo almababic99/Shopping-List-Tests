@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List using Hangfire\\Shopping-List-Hangfire\\backend\\Boundaries\\Boundaries.csproj",
+      "projectUniqueName": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Boundaries\\Boundaries.csproj",
       "projectName": "Boundaries",
-      "projectPath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List using Hangfire\\Shopping-List-Hangfire\\backend\\Boundaries\\Boundaries.csproj",
+      "projectPath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Boundaries\\Boundaries.csproj",
       "packagesPath": "C:\\Users\\alma.babic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List using Hangfire\\Shopping-List-Hangfire\\backend\\Boundaries\\obj\\",
+      "outputPath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Boundaries\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eOoWmnxd+c0=",
+  "dgSpecHash": "YqQKoZYM8gE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List using Hangfire\\Shopping-List-Hangfire\\backend\\Boundaries\\Boundaries.csproj",
+  "projectFilePath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Boundaries\\Boundaries.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

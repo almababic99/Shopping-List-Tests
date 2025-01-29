@@ -244,6 +244,45 @@ namespace Tests.InfrastructureTests
 
 
         // Testing EditShopper:
-        
+        [Fact]
+        public async Task Given_ExistingShopper_When_EditShopperIsCalled_Then_ShopperShouldBeUpdated()
+        {
+            // Given
+            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
+            await _shoppingListDbContext.SaveChangesAsync();
+
+            var shopper = new ShopperEntityBuilder().WithId(1).WithName("John Doe").Build();
+            _shoppingListDbContext.Shoppers.Add(shopper);
+            await _shoppingListDbContext.SaveChangesAsync();
+
+            var shopperToEdit = new Shopper { Id = 1, Name = "Updated John Doe" };
+
+            // When
+            await _shopperRepository.EditShopper(shopperToEdit);
+
+            // Then
+            var updatedShopper = await _shoppingListDbContext.Shoppers.FirstOrDefaultAsync(s => s.Id == shopperToEdit.Id);
+
+            updatedShopper.Should().NotBeNull();   
+            updatedShopper.Name.Should().Be("Updated John Doe");  
+        }
+
+        [Fact]
+        public async Task Given_NonExistingShopper_When_EditShopperIsCalled_Then_NoChangesShouldBeMade()
+        {
+            // Given
+            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
+            await _shoppingListDbContext.SaveChangesAsync();
+
+            var shopperToEdit = new Shopper { Id = 999, Name = "Non Existing Shopper" };
+
+            // When
+            await _shopperRepository.EditShopper(shopperToEdit);
+
+            // Then
+            var nonExistingShopper = await _shoppingListDbContext.Shoppers.FirstOrDefaultAsync(s => s.Id == shopperToEdit.Id);
+
+            nonExistingShopper.Should().BeNull();  
+        }
     }
 }

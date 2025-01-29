@@ -78,3 +78,23 @@ C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-
 C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

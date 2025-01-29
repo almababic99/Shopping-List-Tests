@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sErcQ+azygE=",
+  "dgSpecHash": "+ly8JMhumGE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List using Hangfire\\Shopping-List-Hangfire\\backend\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
