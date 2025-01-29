@@ -1,0 +1,24 @@
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\bin\Debug\net8.0\Boundaries.deps.json
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\bin\Debug\net8.0\Boundaries.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\bin\Debug\net8.0\Boundaries.pdb
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\obj\Debug\net8.0\Boundaries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\obj\Debug\net8.0\Boundaries.AssemblyInfoInputs.cache
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\obj\Debug\net8.0\Boundaries.AssemblyInfo.cs
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\obj\Debug\net8.0\Boundaries.csproj.CoreCompileInputs.cache
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\obj\Debug\net8.0\Boundaries.sourcelink.json
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\obj\Debug\net8.0\Boundaries.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\obj\Debug\net8.0\refint\Boundaries.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\obj\Debug\net8.0\Boundaries.pdb
+C:\Users\alma.babic\Desktop\Projects\Shopping-List\backend\Boundaries\obj\Debug\net8.0\ref\Boundaries.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\bin\Debug\net8.0\Boundaries.deps.json
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\bin\Debug\net8.0\Boundaries.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\bin\Debug\net8.0\Boundaries.pdb
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\obj\Debug\net8.0\Boundaries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\obj\Debug\net8.0\Boundaries.AssemblyInfoInputs.cache
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\obj\Debug\net8.0\Boundaries.AssemblyInfo.cs
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\obj\Debug\net8.0\Boundaries.csproj.CoreCompileInputs.cache
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\obj\Debug\net8.0\Boundaries.sourcelink.json
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\obj\Debug\net8.0\Boundaries.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\obj\Debug\net8.0\refint\Boundaries.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\obj\Debug\net8.0\Boundaries.pdb
+C:\Users\alma.babic\Desktop\Projects\Shopping List using Hangfire\Shopping-List-Hangfire\backend\Boundaries\obj\Debug\net8.0\ref\Boundaries.dll
