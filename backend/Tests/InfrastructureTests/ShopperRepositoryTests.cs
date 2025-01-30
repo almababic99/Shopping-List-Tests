@@ -29,7 +29,6 @@ namespace Tests.InfrastructureTests
 
             var dbContext = new ShoppingListDbContext(options);
 
-            // Add fake data to all tables
             dbContext.Shoppers.AddRange(GetFakeShoppers());
             dbContext.Items.AddRange(GetFakeItems());
             dbContext.ShoppingLists.AddRange(GetFakeShoppingLists());
