@@ -11,7 +11,7 @@ namespace Tests.Builders
         {
             return new ShopperEntityBuilder()
                 .WithId(1)
-                .WithName("ShopperEntity");
+                .WithName("Shopper");
         }
 
         public ShopperEntityBuilder WithId(int id)

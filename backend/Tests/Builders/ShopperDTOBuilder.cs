@@ -11,7 +11,7 @@ namespace Tests.Builders
         {
             return new ShopperDTOBuilder()
                 .WithId(1)
-                .WithName("ShopperDTO");
+                .WithName("Shopper");
         }
 
         public ShopperDTOBuilder WithId(int id)
