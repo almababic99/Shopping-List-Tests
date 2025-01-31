@@ -1,7 +1,6 @@
 ﻿using Domain.DomainModels;
 using FluentAssertions;
 using Infrastructure.Data;
-using Infrastructure.EntityModels;
 using Infrastructure.Models;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -30,9 +29,6 @@ namespace Tests.InfrastructureTests
             var dbContext = new ShoppingListDbContext(options);
 
             dbContext.Shoppers.AddRange(GetFakeShoppers());
-            //dbContext.Items.AddRange(GetFakeItems());
-            //dbContext.ShoppingLists.AddRange(GetFakeShoppingLists());
-            //dbContext.ShoppingListItems.AddRange(GetFakeShoppingListItems());
 
             dbContext.SaveChanges();
 
@@ -43,21 +39,6 @@ namespace Tests.InfrastructureTests
         {
             return new List<ShopperEntity>();
         }
-
-        //private List<ItemEntity> GetFakeItems()
-        //{
-        //    return new List<ItemEntity>();
-        //}
-
-        //private List<ShoppingListEntity> GetFakeShoppingLists()
-        //{
-        //    return new List<ShoppingListEntity>();
-        //}
-
-        //private List<ShoppingListItemEntity> GetFakeShoppingListItems()
-        //{
-        //    return new List<ShoppingListItemEntity>();
-        //}
 
 
 
