@@ -191,14 +191,14 @@ namespace Tests.InfrastructureTests
             await _shoppingListDbContext.SaveChangesAsync();
 
             // When
-            await _shopperRepository.DeleteShopper(1);  // Deleting the shopper with id 1
+            await _shopperRepository.DeleteShopper(1);  
 
             // Then
             var deletedShopper = await _shoppingListDbContext.Shoppers.FirstOrDefaultAsync(s => s.Id == 1);
-            deletedShopper.Should().BeNull();  // shopper1 should no longer exist in database
+            deletedShopper.Should().BeNull();  
 
             var nonDeletedShopper = await _shoppingListDbContext.Shoppers.FirstOrDefaultAsync(s => s.Id == 2);
-            nonDeletedShopper.Should().NotBeNull();   // shopper2 should still exist in database
+            nonDeletedShopper.Should().NotBeNull();   
         }
 
         [Fact]
@@ -218,7 +218,7 @@ namespace Tests.InfrastructureTests
 
             // Then
             var shoppersCount = await _shoppingListDbContext.Shoppers.CountAsync();
-            shoppersCount.Should().Be(1);  // No shoppers should be in the database
+            shoppersCount.Should().Be(1);  
         }
 
 

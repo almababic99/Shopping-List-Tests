@@ -34,7 +34,7 @@ namespace Tests.ApplicationTests
             await _deleteShopperCommandHandler.Handle(command, CancellationToken.None);
 
             // Then
-            _shopperRepository.Verify(repo => repo.DeleteShopper(1), Times.Once());  // verify that DeleteShopper method on mocked repo is called exactly once with id 1
+            _shopperRepository.Verify(repo => repo.DeleteShopper(1), Times.Once());  
         }
 
         [Fact]
