@@ -38,7 +38,6 @@ namespace Tests.ApplicationTests
         }
 
         [Fact]
-
         public async Task Given_NonExistingShopper_When_HandleIsCalled_Then_ThrowShopperNotFoundException()
         {
             // Given
