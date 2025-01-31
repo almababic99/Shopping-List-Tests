@@ -12,12 +12,12 @@ namespace Tests.ApplicationTests
     public class GetShoppersQueryHandlerTests
     {
         private readonly Mock<IShopperRepository> _shopperRepository;
-        private readonly GetShoppersQueryHandler _shoppersQueryHandler;
+        private readonly GetShoppersQueryHandler _getShoppersQueryHandler;
 
         public GetShoppersQueryHandlerTests()
         {
             _shopperRepository = new Mock<IShopperRepository>();
-            _shoppersQueryHandler = new GetShoppersQueryHandler(_shopperRepository.Object); 
+            _getShoppersQueryHandler = new GetShoppersQueryHandler(_shopperRepository.Object); 
         }
 
         [Fact]
@@ -35,7 +35,7 @@ namespace Tests.ApplicationTests
             var query = new GetShoppersQuery();
 
             // When
-            var result = await _shoppersQueryHandler.Handle(query, CancellationToken.None);
+            var result = await _getShoppersQueryHandler.Handle(query, CancellationToken.None);
 
             // Then
             result.Should().BeEquivalentTo(shoppers);
@@ -52,7 +52,7 @@ namespace Tests.ApplicationTests
             var query = new GetShoppersQuery();
 
             // When
-            Func<Task> result = async () => await _shoppersQueryHandler.Handle(query, CancellationToken.None);
+            Func<Task> result = async () => await _getShoppersQueryHandler.Handle(query, CancellationToken.None);
 
             // Then
             await result.Should().ThrowAsync<ShoppersNotFoundException>();

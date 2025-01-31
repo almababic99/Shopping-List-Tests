@@ -12,12 +12,12 @@ namespace Tests.ApplicationTests
     public class GetItemByIdQueryHandlerTests
     {
         private readonly Mock<IItemRepository> _itemRepository;
-        private readonly GetItemByIdQueryHandler _query;
+        private readonly GetItemByIdQueryHandler _getItemByIdQueryHandler;
 
         public GetItemByIdQueryHandlerTests()
         {
             _itemRepository = new Mock<IItemRepository>();
-            _query = new GetItemByIdQueryHandler(_itemRepository.Object);
+            _getItemByIdQueryHandler = new GetItemByIdQueryHandler(_itemRepository.Object);
         }
 
         [Fact]
@@ -32,7 +32,7 @@ namespace Tests.ApplicationTests
             var query = new GetItemByIdQuery { Id = id };
 
             // When
-            var result = await _query.Handle(query, CancellationToken.None);
+            var result = await _getItemByIdQueryHandler.Handle(query, CancellationToken.None);
 
             // Then
             result.Should().BeEquivalentTo(item);
@@ -49,7 +49,7 @@ namespace Tests.ApplicationTests
             var query = new GetItemByIdQuery { Id = id };
 
             // When
-            Func<Task> result = async () => await _query.Handle(query, CancellationToken.None);
+            Func<Task> result = async () => await _getItemByIdQueryHandler.Handle(query, CancellationToken.None);
 
             // Then
             await result.Should().ThrowAsync<ItemNotFoundException>();

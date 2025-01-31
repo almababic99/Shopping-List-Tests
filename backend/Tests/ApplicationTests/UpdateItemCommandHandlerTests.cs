@@ -10,12 +10,12 @@ namespace Tests.ApplicationTests
     public class UpdateItemCommandHandlerTests
     {
         private readonly Mock<IItemRepository> _itemRepository;
-        private readonly UpdateItemCommandHandler _handler;
+        private readonly UpdateItemCommandHandler _updateItemCommandHandler;
 
         public UpdateItemCommandHandlerTests()
         {
             _itemRepository = new Mock<IItemRepository>();
-            _handler = new UpdateItemCommandHandler(_itemRepository.Object);
+            _updateItemCommandHandler = new UpdateItemCommandHandler(_itemRepository.Object);
         }
 
         [Fact]
@@ -31,7 +31,7 @@ namespace Tests.ApplicationTests
             };
 
             // When
-            await _handler.Handle(command, CancellationToken.None);
+            await _updateItemCommandHandler.Handle(command, CancellationToken.None);
 
             // Then
             _itemRepository.Verify(x => x.EditItem(It.Is<Item>(i => i.Id == item.Id && i.Name == item.Name && i.Quantity == item.Quantity)));
