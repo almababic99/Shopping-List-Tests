@@ -1,5 +1,5 @@
 ﻿using API.Controllers;
-using API.DTOModels;
+using API.Mappers;
 using Application.Commands;
 using Application.Interfaces;
 using Application.Queries;
@@ -26,6 +26,8 @@ namespace Tests.APITests
             _shopperController = new ShopperController(_shopperService.Object, _mediator.Object );
         }
 
+
+
         // Testing Get:
         [Fact]
         public async Task Given_Shoppers_When_GetIsCalled_Then_ReturnShoppers()
@@ -37,11 +39,7 @@ namespace Tests.APITests
                 ShopperBuilder.WithDefaults().WithId(2).WithName("Jane Smith").Build()
             };
 
-            var shopperDTOs = new List<ShopperDTO>
-            {
-                ShopperDTOBuilder.WithDefaults().WithId(1).WithName("John Doe").Build(),
-                ShopperDTOBuilder.WithDefaults().WithId(2).WithName("Jane Smith").Build()
-            };
+            var shopperDTOs = shoppers.Select(s => ShopperMapperDomainToDTO.MapToDTO(s)).ToList();
 
             _mediator.Setup(m => m.Send(It.IsAny<GetShoppersQuery>(), default)).ReturnsAsync(shoppers);
 
@@ -62,7 +60,7 @@ namespace Tests.APITests
         {
             // Given
             var shopper = ShopperBuilder.WithDefaults().WithId(1).WithName("John Doe").Build();
-            var shopperDTO = ShopperDTOBuilder.WithDefaults().WithId(1).WithName("John Doe").Build();
+            var shopperDTO = ShopperMapperDomainToDTO.MapToDTO(shopper);
 
             _mediator.Setup(m => m.Send(It.IsAny<GetShopperByIdQuery>(), default)).ReturnsAsync(shopper);
 

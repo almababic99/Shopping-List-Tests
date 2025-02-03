@@ -9,7 +9,7 @@ using Xunit;
 
 namespace Tests.InfrastructureTests
 {
-    public class ShopperRepositoryTests
+    public class ShopperRepositoryTests 
     {
         private readonly ShoppingListDbContext _shoppingListDbContext;
         private readonly ShopperRepository _shopperRepository;  
@@ -18,6 +18,10 @@ namespace Tests.InfrastructureTests
         { 
             _shoppingListDbContext = CreateDbContext();
             _shopperRepository = new ShopperRepository(_shoppingListDbContext);
+
+            // Cleanup the database before every test
+            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);
+            _shoppingListDbContext.SaveChanges();
         }
 
         private ShoppingListDbContext CreateDbContext()
@@ -47,9 +51,6 @@ namespace Tests.InfrastructureTests
         public async Task Given_Shoppers_When_GetShoppersIsCalled_Then_ReturnAllShoppers()
         {
             // Given
-            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
-            await _shoppingListDbContext.SaveChangesAsync();
-
             var shopper1 = new ShopperEntityBuilder().WithId(1).WithName("John Doe").Build();
             var shopper2 = new ShopperEntityBuilder().WithId(2).WithName("Jane Smith").Build();
             _shoppingListDbContext.Shoppers.Add(shopper1);
@@ -87,9 +88,6 @@ namespace Tests.InfrastructureTests
         public async Task Given_ExistingShopper_When_GetShopperByIdIsCalled_Then_ReturnShopper()
         {
             // Given
-            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
-            await _shoppingListDbContext.SaveChangesAsync();
-
             var shopper = new ShopperEntityBuilder().WithId(1).WithName("John Doe").Build();
             _shoppingListDbContext.Shoppers.Add(shopper);
             await _shoppingListDbContext.SaveChangesAsync();
@@ -123,9 +121,6 @@ namespace Tests.InfrastructureTests
         public async Task Given_ExistingShopper_When_GetShopperIsCalled_Then_ReturnShopper()
         {
             // Given
-            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
-            await _shoppingListDbContext.SaveChangesAsync();
-
             var shopper = new ShopperEntityBuilder().WithId(1).WithName("John Doe").Build();
             _shoppingListDbContext.Shoppers.Add(shopper);
             await _shoppingListDbContext.SaveChangesAsync();
@@ -159,8 +154,6 @@ namespace Tests.InfrastructureTests
         public async Task Given_NewShopper_When_AddShopperIsCalled_Then_ShopperShouldBeAdded()
         {
             // Given
-            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
-            await _shoppingListDbContext.SaveChangesAsync();
             var newShopper = new Shopper { Name = "John Doe" };
 
             // When
@@ -181,9 +174,6 @@ namespace Tests.InfrastructureTests
         public async Task Given_ExistingShopper_When_DeleteShopperIsCalled_Then_ShopperShouldBeDeleted()
         {
             // Given
-            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
-            await _shoppingListDbContext.SaveChangesAsync();
-
             var shopper1 = new ShopperEntityBuilder().WithId(1).WithName("John Doe").Build();
             var shopper2 = new ShopperEntityBuilder().WithId(2).WithName("Jane Smith").Build();
             _shoppingListDbContext.Shoppers.Add(shopper1);
@@ -205,9 +195,6 @@ namespace Tests.InfrastructureTests
         public async Task Given_NonExistingShopper_When_DeleteShopperIsCalled_Then_NoActionShouldBeTaken()
         {
             // Given
-            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
-            await _shoppingListDbContext.SaveChangesAsync();
-
             var shopper = new ShopperEntityBuilder().WithId(1).WithName("John Doe").Build();
             _shoppingListDbContext.Shoppers.Add(shopper);
             await _shoppingListDbContext.SaveChangesAsync();
@@ -228,9 +215,6 @@ namespace Tests.InfrastructureTests
         public async Task Given_ExistingShopper_When_EditShopperIsCalled_Then_ShopperShouldBeUpdated()
         {
             // Given
-            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
-            await _shoppingListDbContext.SaveChangesAsync();
-
             var shopper = new ShopperEntityBuilder().WithId(1).WithName("John Doe").Build();
             _shoppingListDbContext.Shoppers.Add(shopper);
             await _shoppingListDbContext.SaveChangesAsync();
@@ -251,9 +235,6 @@ namespace Tests.InfrastructureTests
         public async Task Given_NonExistingShopper_When_EditShopperIsCalled_Then_NoChangesShouldBeMade()
         {
             // Given
-            _shoppingListDbContext.Shoppers.RemoveRange(_shoppingListDbContext.Shoppers);  // Cleanup before adding new data
-            await _shoppingListDbContext.SaveChangesAsync();
-
             var shopperToEdit = new Shopper { Id = 999, Name = "Non Existing Shopper" };
 
             // When
