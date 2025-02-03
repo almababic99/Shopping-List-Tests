@@ -32,10 +32,8 @@ namespace Tests.ApplicationTests.QueryTests
 
             _shopperRepository.Setup(repo => repo.GetShoppers()).ReturnsAsync(shoppers);
 
-            var query = new GetShoppersQuery();
-
             // When
-            var result = await _getShoppersQueryHandler.Handle(query, CancellationToken.None);
+            var result = await _getShoppersQueryHandler.Handle(new GetShoppersQuery(), CancellationToken.None);
 
             // Then
             result.Should().BeEquivalentTo(shoppers);
@@ -49,10 +47,8 @@ namespace Tests.ApplicationTests.QueryTests
 
             _shopperRepository.Setup(repo => repo.GetShoppers()).ReturnsAsync(shoppers);
 
-            var query = new GetShoppersQuery();
-
             // When
-            Func<Task> result = async () => await _getShoppersQueryHandler.Handle(query, CancellationToken.None);
+            Func<Task> result = async () => await _getShoppersQueryHandler.Handle(new GetShoppersQuery(), CancellationToken.None);
 
             // Then
             await result.Should().ThrowAsync<ShoppersNotFoundException>();
