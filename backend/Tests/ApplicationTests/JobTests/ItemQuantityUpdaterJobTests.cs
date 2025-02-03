@@ -5,7 +5,7 @@ using Moq;
 using Tests.Builders;
 using Xunit;
 
-namespace Tests.ApplicationTests
+namespace Tests.ApplicationTests.JobTests
 {
     public class ItemQuantityUpdaterJobTests
     {

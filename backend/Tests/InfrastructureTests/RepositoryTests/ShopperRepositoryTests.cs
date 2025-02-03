@@ -7,15 +7,15 @@ using Microsoft.EntityFrameworkCore;
 using Tests.Builders;
 using Xunit;
 
-namespace Tests.InfrastructureTests
+namespace Tests.InfrastructureTests.RepositoryTests
 {
-    public class ShopperRepositoryTests 
+    public class ShopperRepositoryTests
     {
         private readonly ShoppingListDbContext _shoppingListDbContext;
-        private readonly ShopperRepository _shopperRepository;  
+        private readonly ShopperRepository _shopperRepository;
 
         public ShopperRepositoryTests()
-        { 
+        {
             _shoppingListDbContext = CreateDbContext();
             _shopperRepository = new ShopperRepository(_shoppingListDbContext);
 
@@ -77,8 +77,8 @@ namespace Tests.InfrastructureTests
             var shoppers = await _shopperRepository.GetShoppers();
 
             // Then
-            shoppers.Should().NotBeNull();  
-            shoppers.Should().BeEmpty();  
+            shoppers.Should().NotBeNull();
+            shoppers.Should().BeEmpty();
         }
 
 
@@ -111,7 +111,7 @@ namespace Tests.InfrastructureTests
             var shopperById = await _shopperRepository.GetShopperById(999);
 
             // Then
-            shopperById.Should().BeNull();  
+            shopperById.Should().BeNull();
         }
 
 
@@ -181,14 +181,14 @@ namespace Tests.InfrastructureTests
             await _shoppingListDbContext.SaveChangesAsync();
 
             // When
-            await _shopperRepository.DeleteShopper(1);  
+            await _shopperRepository.DeleteShopper(1);
 
             // Then
             var deletedShopper = await _shoppingListDbContext.Shoppers.FirstOrDefaultAsync(s => s.Id == 1);
-            deletedShopper.Should().BeNull();  
+            deletedShopper.Should().BeNull();
 
             var nonDeletedShopper = await _shoppingListDbContext.Shoppers.FirstOrDefaultAsync(s => s.Id == 2);
-            nonDeletedShopper.Should().NotBeNull();   
+            nonDeletedShopper.Should().NotBeNull();
         }
 
         [Fact]
@@ -205,7 +205,7 @@ namespace Tests.InfrastructureTests
 
             // Then
             var shoppersCount = await _shoppingListDbContext.Shoppers.CountAsync();
-            shoppersCount.Should().Be(1);  
+            shoppersCount.Should().Be(1);
         }
 
 
@@ -227,8 +227,8 @@ namespace Tests.InfrastructureTests
             // Then
             var updatedShopper = await _shoppingListDbContext.Shoppers.FirstOrDefaultAsync(s => s.Id == shopperToEdit.Id);
 
-            updatedShopper.Should().NotBeNull();   
-            updatedShopper.Name.Should().Be("Updated John Doe");  
+            updatedShopper.Should().NotBeNull();
+            updatedShopper.Name.Should().Be("Updated John Doe");
         }
 
         [Fact]
@@ -243,7 +243,7 @@ namespace Tests.InfrastructureTests
             // Then
             var nonExistingShopper = await _shoppingListDbContext.Shoppers.FirstOrDefaultAsync(s => s.Id == shopperToEdit.Id);
 
-            nonExistingShopper.Should().BeNull();  
+            nonExistingShopper.Should().BeNull();
         }
     }
 }

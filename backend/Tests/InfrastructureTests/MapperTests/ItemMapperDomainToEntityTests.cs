@@ -3,7 +3,7 @@ using Tests.Builders;
 using Xunit;
 using FluentAssertions;
 
-namespace Tests.InfrastructureTests
+namespace Tests.InfrastructureTests.MapperTests
 {
     public class ItemMapperDomainToEntityTests
     {

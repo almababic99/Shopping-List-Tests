@@ -7,7 +7,7 @@ using Tests.Builders;
 using FluentAssertions;
 using Application.Exceptions;
 
-namespace Tests.ApplicationTests
+namespace Tests.ApplicationTests.QueryTests
 {
     public class GetShoppersQueryHandlerTests
     {
@@ -17,7 +17,7 @@ namespace Tests.ApplicationTests
         public GetShoppersQueryHandlerTests()
         {
             _shopperRepository = new Mock<IShopperRepository>();
-            _getShoppersQueryHandler = new GetShoppersQueryHandler(_shopperRepository.Object); 
+            _getShoppersQueryHandler = new GetShoppersQueryHandler(_shopperRepository.Object);
         }
 
         [Fact]

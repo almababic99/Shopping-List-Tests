@@ -7,7 +7,7 @@ using Moq;
 using Tests.Builders;
 using Xunit;
 
-namespace Tests.ApplicationTests
+namespace Tests.ApplicationTests.QueryTests
 {
     public class GetItemByIdQueryHandlerTests
     {

@@ -3,7 +3,7 @@ using Tests.Builders;
 using Xunit;
 using FluentAssertions;
 
-namespace Tests.APITests
+namespace Tests.APITests.MapperTests
 {
     public class ShopperMapperDTOToDomainTests
     {

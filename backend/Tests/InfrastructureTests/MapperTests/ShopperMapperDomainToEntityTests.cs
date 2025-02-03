@@ -3,7 +3,7 @@ using Infrastructure.Mappers;
 using Tests.Builders;
 using Xunit;
 
-namespace Tests.InfrastructureTests
+namespace Tests.InfrastructureTests.MapperTests
 {
     public class ShopperMapperDomainToEntityTests
     {

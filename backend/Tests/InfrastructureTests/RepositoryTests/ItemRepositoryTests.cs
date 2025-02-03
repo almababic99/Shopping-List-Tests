@@ -7,7 +7,7 @@ using Xunit;
 using FluentAssertions;
 using Domain.DomainModels;
 
-namespace Tests.InfrastructureTests
+namespace Tests.InfrastructureTests.RepositoryTests
 {
     public class ItemRepositoryTests
     {

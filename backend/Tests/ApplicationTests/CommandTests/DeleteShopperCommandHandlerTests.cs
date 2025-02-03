@@ -7,7 +7,7 @@ using Moq;
 using Tests.Builders;
 using Xunit;
 
-namespace Tests.ApplicationTests
+namespace Tests.ApplicationTests.CommandTests
 {
     public class DeleteShopperCommandHandlerTests
     {
@@ -34,7 +34,7 @@ namespace Tests.ApplicationTests
             await _deleteShopperCommandHandler.Handle(command, CancellationToken.None);
 
             // Then
-            _shopperRepository.Verify(repo => repo.DeleteShopper(1), Times.Once());  
+            _shopperRepository.Verify(repo => repo.DeleteShopper(1), Times.Once());
         }
 
         [Fact]

@@ -3,7 +3,7 @@ using FluentAssertions;
 using Tests.Builders;
 using Xunit;
 
-namespace Tests.APITests
+namespace Tests.APITests.MapperTests
 {
     public class ItemMapperDTOToDomainTests
     {

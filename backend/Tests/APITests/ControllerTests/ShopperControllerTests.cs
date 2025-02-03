@@ -11,7 +11,7 @@ using Moq;
 using Tests.Builders;
 using Xunit;
 
-namespace Tests.APITests
+namespace Tests.APITests.ControllerTests
 {
     public class ShopperControllerTests
     {
@@ -23,7 +23,7 @@ namespace Tests.APITests
         {
             _mediator = new Mock<IMediator>();
             _shopperService = new Mock<IShopperService>();
-            _shopperController = new ShopperController(_shopperService.Object, _mediator.Object );
+            _shopperController = new ShopperController(_shopperService.Object, _mediator.Object);
         }
 
 

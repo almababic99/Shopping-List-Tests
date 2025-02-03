@@ -11,7 +11,7 @@ using Xunit;
 using FluentAssertions;
 using Application.Commands;
 
-namespace Tests.APITests
+namespace Tests.APITests.ControllerTests
 {
     public class ItemControllerTests
     {
