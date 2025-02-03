@@ -1001,10 +1001,10 @@ C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\bac
 C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API.props
 C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
 C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\API.csproj.Up2Date
 C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\API.dll
 C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\refint\API.dll
 C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\API.pdb
 C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\ref\API.dll
+C:\Users\alma.babic\Desktop\Projects\Shopping List Tests\Shopping-List-Tests\backend\backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
