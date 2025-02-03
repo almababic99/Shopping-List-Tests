@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\infrastructuretests\\itemrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\infrastructuretests\\itemrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\apitests\\itemcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\apitests\\itemcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{639F40A8-86C6-4A65-BBA1-70EC24B5ADA9}|Infrastructure\\Infrastructure.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\infrastructure\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{639F40A8-86C6-4A65-BBA1-70EC24B5ADA9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\apitests\\shoppermapperdomaintodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\apitests\\shoppermapperdomaintodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\infrastructuretests\\shopperrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\infrastructuretests\\shopperrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\apitests\\shoppermapperdtotodomaintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\apitests\\shoppermapperdtotodomaintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{639F40A8-86C6-4A65-BBA1-70EC24B5ADA9}|Infrastructure\\Infrastructure.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\infrastructure\\repositories\\shopperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{639F40A8-86C6-4A65-BBA1-70EC24B5ADA9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\shopperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\apitests\\itemmapperdtotodomaintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\apitests\\itemmapperdtotodomaintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\apitests\\shoppercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\apitests\\shoppercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\apitests\\itemmapperdomaintodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\apitests\\itemmapperdomaintodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShopperRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Infrastructure\\Repositories\\ShopperRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ShopperRepository.cs",
-              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Infrastructure\\Repositories\\ShopperRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\ShopperRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ItemControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ItemControllerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\APITests\\ItemControllerTests.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ItemControllerTests.cs",
+              "RelativeToolTip": "Tests\\APITests\\ItemControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T11:09:01.965Z",
+              "WhenOpened": "2025-02-03T12:27:16.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Infrastructure\\Repositories\\ItemRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ItemRepository.cs",
-              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Infrastructure\\Repositories\\ItemRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\ItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAB9AAAAAAAAAA==",
+              "Title": "ShopperMapperDomainToDTOTests.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ShopperMapperDomainToDTOTests.cs",
+              "RelativeDocumentMoniker": "Tests\\APITests\\ShopperMapperDomainToDTOTests.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ShopperMapperDomainToDTOTests.cs",
+              "RelativeToolTip": "Tests\\APITests\\ShopperMapperDomainToDTOTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T11:06:28.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShopperControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ShopperControllerTests.cs",
-              "RelativeDocumentMoniker": "Tests\\APITests\\ShopperControllerTests.cs",
-              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ShopperControllerTests.cs",
-              "RelativeToolTip": "Tests\\APITests\\ShopperControllerTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T09:20:15.567Z",
+              "WhenOpened": "2025-02-03T12:25:22.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ShopperRepositoryTests.cs",
-              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\InfrastructureTests\\ShopperRepositoryTests.cs",
-              "RelativeDocumentMoniker": "Tests\\InfrastructureTests\\ShopperRepositoryTests.cs",
-              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\InfrastructureTests\\ShopperRepositoryTests.cs",
-              "RelativeToolTip": "Tests\\InfrastructureTests\\ShopperRepositoryTests.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAPgAAAABAAAAAAAAAA==",
+              "Title": "ShopperMapperDTOToDomainTests.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ShopperMapperDTOToDomainTests.cs",
+              "RelativeDocumentMoniker": "Tests\\APITests\\ShopperMapperDTOToDomainTests.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ShopperMapperDTOToDomainTests.cs",
+              "RelativeToolTip": "Tests\\APITests\\ShopperMapperDTOToDomainTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T09:20:18.234Z",
+              "WhenOpened": "2025-02-03T12:23:04.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ItemRepositoryTests.cs",
-              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\InfrastructureTests\\ItemRepositoryTests.cs",
-              "RelativeDocumentMoniker": "Tests\\InfrastructureTests\\ItemRepositoryTests.cs",
-              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\InfrastructureTests\\ItemRepositoryTests.cs",
-              "RelativeToolTip": "Tests\\InfrastructureTests\\ItemRepositoryTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ItemMapperDomainToDTOTests.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ItemMapperDomainToDTOTests.cs",
+              "RelativeDocumentMoniker": "Tests\\APITests\\ItemMapperDomainToDTOTests.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ItemMapperDomainToDTOTests.cs",
+              "RelativeToolTip": "Tests\\APITests\\ItemMapperDomainToDTOTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T11:06:19.375Z",
+              "WhenOpened": "2025-02-03T12:19:39.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemMapperDTOToDomainTests.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ItemMapperDTOToDomainTests.cs",
+              "RelativeDocumentMoniker": "Tests\\APITests\\ItemMapperDTOToDomainTests.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ItemMapperDTOToDomainTests.cs",
+              "RelativeToolTip": "Tests\\APITests\\ItemMapperDTOToDomainTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T12:19:16.17Z",
               "EditorCaption": ""
             }
           ]
