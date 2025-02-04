@@ -24,17 +24,18 @@ namespace Tests.ApplicationTests.CommandTests
         public async Task Given_ExistingShopper_When_HandleIsCalled_Then_DeleteShopper()
         {
             // Given
-            var shopper = ShopperBuilder.WithDefaults().WithId(1).WithName("John Doe").Build();
+            var id = 1;
+            var shopper = ShopperBuilder.WithDefaults().WithId(id).WithName("John Doe").Build();
 
-            var command = new DeleteShopperCommand { Id = 1 };
+            var command = new DeleteShopperCommand { Id = id };
 
-            _shopperRepository.Setup(repo => repo.GetShopperById(1)).ReturnsAsync(shopper);
+            _shopperRepository.Setup(repo => repo.GetShopperById(id)).ReturnsAsync(shopper);
 
             // When
             await _deleteShopperCommandHandler.Handle(command, CancellationToken.None);
 
             // Then
-            _shopperRepository.Verify(repo => repo.DeleteShopper(1), Times.Once());
+            _shopperRepository.Verify(repo => repo.DeleteShopper(id), Times.Once());
         }
 
         [Fact]
