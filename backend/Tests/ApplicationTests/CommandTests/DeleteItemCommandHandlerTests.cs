@@ -24,17 +24,18 @@ namespace Tests.ApplicationTests.CommandTests
         public async Task Given_ExistingItem_When_HandleIsCalled_Then_DeleteItem()
         {
             // Given
-            var item = ItemBuilder.WithDefaults().WithId(1).WithName("Milk").Build();
+            var id = 1;
+            var item = ItemBuilder.WithDefaults().WithId(id).WithName("Milk").Build();
 
-            var command = new DeleteItemCommand { Id = 1 };
+            var command = new DeleteItemCommand { Id = id };
 
-            _itemRepository.Setup(repo => repo.GetItemById(1)).ReturnsAsync(item);
+            _itemRepository.Setup(repo => repo.GetItemById(id)).ReturnsAsync(item);
 
             // When
             await _deleteItemCommandHandler.Handle(command, CancellationToken.None);
 
             // Then
-            _itemRepository.Verify(repo => repo.DeleteItem(1), Times.Once());
+            _itemRepository.Verify(repo => repo.DeleteItem(id), Times.Once());
         }
 
         [Fact]
