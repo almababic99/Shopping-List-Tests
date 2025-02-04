@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\jobtests\\welcomemessagejobtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\jobtests\\welcomemessagejobtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\querytests\\getshoppinglistsbyshopperidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\querytests\\getshoppinglistsbyshopperidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\querytests\\getshoppinglistsqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\querytests\\getshoppinglistsqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\builders\\shoppinglistbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\builders\\shoppinglistbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\commandtests\\updateitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\commandtests\\updateitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\commandtests\\createitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\commandtests\\createitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\commandtests\\deleteitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\commandtests\\deleteitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\jobtests\\newshoppinglistaddedinfojobtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\jobtests\\newshoppinglistaddedinfojobtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\builders\\shoppinglistdtobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\builders\\shoppinglistdtobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\querytests\\getitembyidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\querytests\\getitembyidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\builders\\shoppinglistentitybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\builders\\shoppinglistentitybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\apitests\\controllertests\\itemcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,18 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\infrastructuretests\\repositorytests\\itemrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\infrastructuretests\\repositorytests\\itemrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\commandtests\\createitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\commandtests\\createitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\commandtests\\updateitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\commandtests\\updateitemcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|c:\\users\\alma.babic\\desktop\\projects\\shopping list tests\\shopping-list-tests\\backend\\tests\\applicationtests\\querytests\\getitemsqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033692D0-6A66-45E9-AE37-AD9DC9C54019}|Tests\\Tests.csproj|solutionrelative:tests\\applicationtests\\querytests\\getitemsqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,55 +55,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WelcomeMessageJobTests.cs",
-              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\JobTests\\WelcomeMessageJobTests.cs",
-              "RelativeDocumentMoniker": "Tests\\ApplicationTests\\JobTests\\WelcomeMessageJobTests.cs",
-              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\JobTests\\WelcomeMessageJobTests.cs",
-              "RelativeToolTip": "Tests\\ApplicationTests\\JobTests\\WelcomeMessageJobTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Title": "GetShoppingListsByShopperIdQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\QueryTests\\GetShoppingListsByShopperIdQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ApplicationTests\\QueryTests\\GetShoppingListsByShopperIdQueryHandlerTests.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\QueryTests\\GetShoppingListsByShopperIdQueryHandlerTests.cs",
+              "RelativeToolTip": "Tests\\ApplicationTests\\QueryTests\\GetShoppingListsByShopperIdQueryHandlerTests.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:53:01.418Z",
+              "WhenOpened": "2025-02-04T14:19:07.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetShoppingListsQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\QueryTests\\GetShoppingListsQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ApplicationTests\\QueryTests\\GetShoppingListsQueryHandlerTests.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\QueryTests\\GetShoppingListsQueryHandlerTests.cs",
+              "RelativeToolTip": "Tests\\ApplicationTests\\QueryTests\\GetShoppingListsQueryHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T14:12:12.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShoppingListEntityBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\Builders\\ShoppingListEntityBuilder.cs",
+              "RelativeDocumentMoniker": "Tests\\Builders\\ShoppingListEntityBuilder.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\Builders\\ShoppingListEntityBuilder.cs",
+              "RelativeToolTip": "Tests\\Builders\\ShoppingListEntityBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T14:06:36.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NewShoppingListAddedInfoJobTests.cs",
-              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\JobTests\\NewShoppingListAddedInfoJobTests.cs",
-              "RelativeDocumentMoniker": "Tests\\ApplicationTests\\JobTests\\NewShoppingListAddedInfoJobTests.cs",
-              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\JobTests\\NewShoppingListAddedInfoJobTests.cs",
-              "RelativeToolTip": "Tests\\ApplicationTests\\JobTests\\NewShoppingListAddedInfoJobTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Title": "ShoppingListBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\Builders\\ShoppingListBuilder.cs",
+              "RelativeDocumentMoniker": "Tests\\Builders\\ShoppingListBuilder.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\Builders\\ShoppingListBuilder.cs",
+              "RelativeToolTip": "Tests\\Builders\\ShoppingListBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:53:00.629Z"
+              "WhenOpened": "2025-02-04T14:05:10.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingListDTOBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\Builders\\ShoppingListDTOBuilder.cs",
+              "RelativeDocumentMoniker": "Tests\\Builders\\ShoppingListDTOBuilder.cs",
+              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\Builders\\ShoppingListDTOBuilder.cs",
+              "RelativeToolTip": "Tests\\Builders\\ShoppingListDTOBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T13:59:23.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GetItemByIdQueryHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\QueryTests\\GetItemByIdQueryHandlerTests.cs",
-              "RelativeDocumentMoniker": "Tests\\ApplicationTests\\QueryTests\\GetItemByIdQueryHandlerTests.cs",
-              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\QueryTests\\GetItemByIdQueryHandlerTests.cs",
-              "RelativeToolTip": "Tests\\ApplicationTests\\QueryTests\\GetItemByIdQueryHandlerTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:56:03.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetItemsQueryHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\QueryTests\\GetItemsQueryHandlerTests.cs",
-              "RelativeDocumentMoniker": "Tests\\ApplicationTests\\QueryTests\\GetItemsQueryHandlerTests.cs",
-              "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\QueryTests\\GetItemsQueryHandlerTests.cs",
-              "RelativeToolTip": "Tests\\ApplicationTests\\QueryTests\\GetItemsQueryHandlerTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:56:02.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "UpdateItemCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\CommandTests\\UpdateItemCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "Tests\\ApplicationTests\\CommandTests\\UpdateItemCommandHandlerTests.cs",
@@ -107,56 +127,60 @@
               "RelativeToolTip": "Tests\\ApplicationTests\\CommandTests\\UpdateItemCommandHandlerTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:52:36.034Z"
+              "WhenOpened": "2025-02-03T14:52:36.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DeleteItemCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\CommandTests\\DeleteItemCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "Tests\\ApplicationTests\\CommandTests\\DeleteItemCommandHandlerTests.cs",
               "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\CommandTests\\DeleteItemCommandHandlerTests.cs",
               "RelativeToolTip": "Tests\\ApplicationTests\\CommandTests\\DeleteItemCommandHandlerTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T14:52:23.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CreateItemCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\CommandTests\\CreateItemCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "Tests\\ApplicationTests\\CommandTests\\CreateItemCommandHandlerTests.cs",
               "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\ApplicationTests\\CommandTests\\CreateItemCommandHandlerTests.cs",
               "RelativeToolTip": "Tests\\ApplicationTests\\CommandTests\\CreateItemCommandHandlerTests.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:52:01.766Z"
+              "WhenOpened": "2025-02-03T14:52:01.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ItemRepositoryTests.cs",
               "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\InfrastructureTests\\RepositoryTests\\ItemRepositoryTests.cs",
               "RelativeDocumentMoniker": "Tests\\InfrastructureTests\\RepositoryTests\\ItemRepositoryTests.cs",
               "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\InfrastructureTests\\RepositoryTests\\ItemRepositoryTests.cs",
               "RelativeToolTip": "Tests\\InfrastructureTests\\RepositoryTests\\ItemRepositoryTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:56:53.198Z"
+              "WhenOpened": "2025-02-03T14:56:53.198Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ItemControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ControllerTests\\ItemControllerTests.cs",
               "RelativeDocumentMoniker": "Tests\\APITests\\ControllerTests\\ItemControllerTests.cs",
               "ToolTip": "C:\\Users\\alma.babic\\Desktop\\Projects\\Shopping List Tests\\Shopping-List-Tests\\backend\\Tests\\APITests\\ControllerTests\\ItemControllerTests.cs",
               "RelativeToolTip": "Tests\\APITests\\ControllerTests\\ItemControllerTests.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:51:19.304Z"
+              "WhenOpened": "2025-02-03T14:51:19.304Z",
+              "EditorCaption": ""
             }
           ]
         }

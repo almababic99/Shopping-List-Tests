@@ -2,7 +2,6 @@
 using Application.Interfaces;
 using Domain.DomainModels;
 using FluentAssertions;
-using Infrastructure.Repositories;
 using Moq;
 using Tests.Builders;
 using Xunit;
